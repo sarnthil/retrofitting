@@ -13,7 +13,9 @@ Options:
   -n, --iterations INTEGER  Number of iterations  [default: 10; required]
   --help                    Show this message and exit.
 ```
-
+### Requirements
+* Python 3.6+
+* [click](http://click.pocoo.org)
 ### Reference 
 ```
 @InProceedings{faruqui:2014:NIPS-DLRLW,
