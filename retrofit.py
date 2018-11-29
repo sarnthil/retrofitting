@@ -113,7 +113,6 @@ def retrofit(word_vectors, lexicon, iterations):
     show_default=True,
 )
 def cli(input_, lexicon, output, iterations):
-    """Blaaaaah"""
     word_vectors = read_word_vectors(input_)
     lexicon = read_lexicon(lexicon)
     new_word_vectors = retrofit(word_vectors, lexicon, iterations)
